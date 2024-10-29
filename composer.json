@@ -1,0 +1,26 @@
+{
+    "name": "genaker/magento-reactjs",
+    "description": "",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "egorshitikov@gmail.com",
+            "name": "Yegor Shytikov"
+        },
+        {
+            "email": "sh.kiruh@gmail.com",
+            "name": "Kirill Shytikov"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "files": [
+            "React/React/registration.php"
+        ],
+        "psr-4": {
+            "React\\React\\": "React/React"
+        }
+    }
+}
